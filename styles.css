@@ -1,0 +1,49 @@
+.homepage {
+    margin-top: 50px;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.announcement {
+    margin-top: 25vh;
+    height: 100%;
+}
+
+.all-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.logo {
+    max-height: 192px;
+    max-width: 70vw;
+}
+
+.heading {
+    color: white;
+    margin-top: 35px;
+}
+
+.announcement p {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.link, .link:visited {
+    color: #eee;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 35px;
+    }
+}
